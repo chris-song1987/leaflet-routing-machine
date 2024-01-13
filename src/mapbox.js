@@ -11,7 +11,7 @@
 	 */
 	module.exports = OSRMv1.extend({
 		options: {
-			serviceUrl: 'https://api.mapbox.com/directions/v5',
+			serviceUrl: 'https://api.mapbox.com/optimized-trips/v1',
 			profile: 'mapbox/driving',
 			useHints: false
 		},
