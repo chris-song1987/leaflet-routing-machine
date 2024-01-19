@@ -23,6 +23,7 @@
 			/* jshint camelcase: false */
 			this.options.requestParameters.access_token = accessToken;
 			/* jshint camelcase: true */
+			delete this.options.alternatives;
 		}
 	});
 })();
